@@ -1,0 +1,4 @@
+--patch-module
+com.rocketlover11=_
+--add-reads
+com.rocketlover11=ALL-UNNAMED
