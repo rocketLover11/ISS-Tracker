@@ -8,7 +8,7 @@ int main() {
         return 1;
     }
 
-    res = system("java -jar isstracker-1.0.jar");
+    res = system("java -jar isstracker.jar");
     if (res != 0) {
         MessageBox(NULL, "Failed to start the Java program.", "Error", MB_ICONERROR | MB_OK);
     }
